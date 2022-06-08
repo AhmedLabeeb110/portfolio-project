@@ -13,8 +13,8 @@ header {
   justify-content: space-between;
   padding: 25px;
   max-width: 100%;
-  background-color: #293462;
-  color: #fff;
+  background-color: #112B3C;
+  color: #EFEFEF;
   font-weight: 500;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: #EFEFEF;
   font-weight: 500;
   transition: ease 0.5s all;
 }
@@ -37,8 +37,7 @@ header {
 .nav-links a:hover{
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-decoration-color: #EC9B3B;
-  color: aliceblue;
+  text-decoration-color: #F66B0E;
 }
 
 Logo {
@@ -53,24 +52,24 @@ Logo {
 }
 
 .left-hero h4{
-  color: #F24C4C;
+  color: #F66B0E;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 25px;
 }
 .left-hero h1{
-  color: #293462;
+  color: #205375;
   font-size: 90px;
 }
 
 .hero-section{
-  background-color: #F7D716;
+  background-color: #EFEFEF;
   padding: 2% 0 7% 0;
 }
 
 .projects-btn, .linkedin-btn{
-  background-color: #F24C4C;
-  color: aliceblue;
+  background-color: #F66B0E;
+  color: #EFEFEF;
   padding: 15px 50px 15px 50px;
   font-size: 17px;
   border: 0;
@@ -80,7 +79,7 @@ Logo {
 }
 
 .projects-btn:hover, .linkedin-btn:hover{
-  background-color: #293462;
+  background-color: #205375;
 }
 
 .hero-btn{
