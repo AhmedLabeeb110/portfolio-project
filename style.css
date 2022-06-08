@@ -14,7 +14,7 @@ header {
   padding: 25px;
   max-width: 100%;
   background-color: #fdc435;
-  color: #000;
+  color: #D61C4E;
 }
 
 .nav-links {
@@ -29,7 +29,7 @@ header {
 }
 .nav-links a {
   text-decoration: none;
-  color: #000;
+  color: #ff6200;
   transition: ease 0.3s all;
 }
 
@@ -53,6 +53,7 @@ Logo {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 20px;
+  color: #ff6200;
 }
 .left-hero h1{
   color: #fdc435;
