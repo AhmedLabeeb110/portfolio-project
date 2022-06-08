@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans serif;
 }
 
 header {
@@ -14,6 +14,7 @@ header {
   padding: 25px;
   max-width: 100%;
   background-color: #fdc435;
+  color: #000;
 }
 
 .nav-links {
@@ -26,12 +27,34 @@ header {
   padding: 15px;
   font-weight: 500;
 }
-a {
+.nav-links a {
   text-decoration: none;
+  color: #000;
+  transition: ease 0.3s all;
+}
+
+.nav-links a:hover{
+  text-decoration: underline;
 }
 
 Logo {
   font-weight: 700;
   font-size: 1.5rem;
   padding-left: 35px;
+}
+
+.left-hero{
+  padding: 4em;
+  line-height: 1.6;
+}
+
+.left-hero h4{
+  color: #fdc435;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+}
+.left-hero h1{
+  color: #fdc435;
+  font-size: 100px;
 }
