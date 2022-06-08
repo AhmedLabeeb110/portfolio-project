@@ -13,8 +13,9 @@ header {
   justify-content: space-between;
   padding: 25px;
   max-width: 100%;
-  background-color: #fdc435;
-  color: #D61C4E;
+  background-color: #293462;
+  color: #fff;
+  font-weight: 500;
 }
 
 .nav-links {
@@ -25,16 +26,19 @@ header {
   list-style: none;
   text-decoration: none;
   padding: 15px;
-  font-weight: 500;
 }
 .nav-links a {
   text-decoration: none;
-  color: #ff6200;
-  transition: ease 0.3s all;
+  color: #fff;
+  font-weight: 500;
+  transition: ease 0.5s all;
 }
 
 .nav-links a:hover{
   text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #EC9B3B;
+  color: aliceblue;
 }
 
 Logo {
@@ -49,13 +53,12 @@ Logo {
 }
 
 .left-hero h4{
-  color: #fdc435;
+  color: #F24C4C;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
-  color: #ff6200;
 }
 .left-hero h1{
-  color: #fdc435;
+  color: #293462;
   font-size: 100px;
 }
