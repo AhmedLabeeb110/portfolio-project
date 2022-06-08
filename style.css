@@ -10,14 +10,15 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 25px;
   max-width: 100%;
   background-color: #fdc435;
 }
 
 .nav-links {
   display: flex;
+  padding-right: 35px;
 }
 .nav-links li {
   list-style: none;
@@ -32,4 +33,5 @@ a {
 Logo {
   font-weight: 700;
   font-size: 1.5rem;
+  padding-left: 35px;
 }
