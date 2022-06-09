@@ -63,8 +63,8 @@ Logo {
 }
 
 .hero-section {
-  background-color: #efefef;
   padding: 2% 0 7% 0;
+  background-color: #EFEFEF;
 }
 
 .projects-btn,
@@ -89,8 +89,16 @@ Logo {
   word-spacing: 10px;
 }
 
-#portfolio {
-  text-align: center;
-  font-size: 45px;
-  color: #16679d;
+.portfolio {
+  color: #EFEFEF;
+  background-color: #205375;
+  padding: 2em;
+}
+
+.ind-projects{
+  border: 3px #f66b0e solid;
+  border-radius: .5em;
+  margin-top: 1em;
+  padding: 1.5em;
+  line-height: 1.6;
 }
