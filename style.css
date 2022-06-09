@@ -102,3 +102,8 @@ Logo {
   padding: 1.5em;
   line-height: 1.6;
 }
+
+.ind-projects h2{
+  font-size: 2rem;
+  padding: 2em;
+}
