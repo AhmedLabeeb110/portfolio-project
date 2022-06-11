@@ -4,45 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script
+    src="https://kit.fontawesome.com/6bc6884a82.js"
+    crossorigin="anonymous"
+  ></script>
     <title>About / Contact</title>
   </head>
   <body>
-    <div class="hero-section">
-      <div class="left-hero">
+    <header>
+      <Logo><a href="/index.html">Blink Design</a></Logo>
+      <ul class="nav-links">
+        <li><a href="">Projects</a></li>
+        <li><a href="/Pages/About.html">About</a></li>
+        <li><a href="/Pages/About.html">Contact</a></li>
+      </ul>
+    </header>
+
+    <div class="about-section">
+      <div class="">
         <h1>Hello, we design the best websites</h1>
         <h5>
           Short text with details about you, what you do or your professional
           career. You can add more information on the about page.
         </h5>
-        <button class="projects-btn">Projects</button>
+        <button class="abt-pj-btn">Projects</button>
       </div>
-      <div class="right-hero">
+      <div class="">
         <img src="" alt="" />
       </div>
     </div>
 
+    <br />
+    <br />
+    <br />
+    <br />
+
     <form action="">
-      <label for="fname">First Name</label>
-      <input
-        type="text"
-        id="fname"
-        name="firstname"
-      />
-
-      <label for="lname">Last Name</label>
-      <input
-        type="text"
-        id="lname"
-        name="lastname"
-      />
-
-      <label for="subject">Your Message</label>
-      <textarea
-        id="subject"
-        name="subject"
-      ></textarea>
-
-      <input type="submit" value="Submit" />
+      <label for="fname" id="fname-label">First Name</label>
+      <br />
+      <input type="text" id="fname" name="firstname" />
+      <br />
+      <label for="lname" id="lname-label">Last Name</label>
+      <br />
+      <input type="text" id="lname" name="lastname" />
+      <br />
+      <label for="subject" id="subject-label">Your Message</label>
+      <br />
+      <textarea id="subject" name="subject"></textarea>
+      <br />
+      <input type="submit" value="Submit" id="submit" />
     </form>
+
+    <br>
+    <br>
+
+    <footer>
+      <div class="footer-items">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
